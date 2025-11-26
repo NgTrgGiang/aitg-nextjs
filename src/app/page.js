@@ -88,32 +88,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* VIDEO SECTION */}
-      <section className="section" id="video">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">Giới thiệu về AITG</h2>
-            <p className="section-subtitle">
-              Xem video để hiểu rõ hơn về sản phẩm và dịch vụ của chúng tôi
-            </p>
-          </div>
-
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
-            <div className="card scroll-reveal" style={{ padding: 0, overflow: 'hidden' }}>
-              <div style={{ position: 'relative', paddingBottom: '56.25%', height: 0 }}>
-                <iframe
-                  style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 'none', borderRadius: 'var(--radius-xl)' }}
-                  src="https://www.youtube.com/embed/86752vuHH6k?si=0DM_dIExKcxt1lHn"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* SERVICES SECTION */}
       <section className="section" id="services">
         <div className="container">
